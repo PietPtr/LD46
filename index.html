@@ -1,0 +1,74 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+    body {
+        background-color: black;
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 50px;
+        background-color: #black;
+        border-radius: 1em;
+        text-align: center;
+    }
+    canvas {
+        /*border: 1px solid white;*/
+        image-rendering: optimizeSpeed;             /* Older versions of FF          */
+        image-rendering: -moz-crisp-edges;          /* FF 6.0+                       */
+        image-rendering: -webkit-optimize-contrast; /* Safari                        */
+        image-rendering: -o-crisp-edges;            /* OS X & Windows Opera (12.02+) */
+        image-rendering: pixelated;                 /* Awesome future-browsers       */
+        -ms-interpolation-mode: nearest-neighbor;   /* IE                            */
+    }
+    body, html {
+        margin: 0;
+    }
+    </style>
+    <script src='consts.js'></script>
+    <script src='util.js'></script>
+    <script src='Draggable.js'></script>
+    <script src='Surface.js'></script>
+    <script src='Flower.js'></script>
+    <script src='Gieter.js'></script>
+    <script src='Clock.js'></script>
+</head>
+
+<body>
+<canvas id="canvas"></canvas>
+<script src='main.js'></script>
+    <div style="display: none">
+        <img id="bg" src="resources/bg.png">
+        <img id="bloemkop" src="resources/bloemkop.png">
+        <img id="bloemkleur" src="resources/bloemkleur.png">
+        <img id="bloembase0" src="resources/bloembase0.png">
+        <img id="bloembase1" src="resources/bloembase1.png">
+        <img id="bloembase2" src="resources/bloembase2.png">
+        <img id="bloembase3" src="resources/bloembase3.png">
+        <img id="bloembase4" src="resources/bloembase4.png">
+        <img id="bloembase5" src="resources/bloembase5.png">
+        <img id="bloembase6" src="resources/bloembase6.png">
+        <img id="angry" src="resources/emotions/angry.png">
+        <img id="asleep" src="resources/emotions/asleep.png">
+        <img id="delighted" src="resources/emotions/delighted.png">
+        <img id="happy" src="resources/emotions/happy.png">
+        <img id="sad" src="resources/emotions/sad.png">
+        <img id="sick" src="resources/emotions/sick.png">
+        <img id="surprised" src="resources/emotions/surprised.png">
+        <img id="gieter" src="resources/gieter.png">
+        <img id="water" src="resources/water.png">
+        <img id="longhand" src="resources/longhand.png">
+        <img id="shorthand" src="resources/shorthand.png">
+        <img id="secondhand" src="resources/secondhand.png">
+        <img id="clock" src="resources/clock.png">
+    </div>
+</body>
+</html>
